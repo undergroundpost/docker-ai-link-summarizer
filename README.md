@@ -204,7 +204,3 @@ If you encounter any issues or have questions:
 1. Check the [Issues](https://github.com/undergroundpost/docker-ai-link-summarizer/issues) page
 2. Create a new issue with detailed information
 3. Make sure to include error logs and steps to reproduce
-
----
-
-**Made with ❤️ and AI**
