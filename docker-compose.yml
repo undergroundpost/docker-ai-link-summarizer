@@ -1,0 +1,7 @@
+services:
+  summarizer:
+    build: .
+    ports:
+      - "3000:5000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
