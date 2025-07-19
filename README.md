@@ -89,10 +89,10 @@ docker-ai-link-summarizer/
 ## 🎨 Screenshots
 
 ### Light Mode
-![Light Mode](/images/dark.png)
+![Light Mode](/images/light.png)
 
 ### Dark Mode
-![Dark Mode](/images/light.png)
+![Dark Mode](/images/dark.png)
 
 ## ⚙️ Configuration
 
