@@ -1,6 +1,6 @@
 # 🔗 Docker AI Link Summarizer
 
-A beautiful, AI-powered web application that instantly summarizes any webpage using OpenAI's GPT-3.5. Built with Flask and Docker for easy deployment.
+A fun, AI-powered web application that instantly summarizes any webpage using OpenAI's GPT-3.5. Built with Flask and Docker for easy deployment.
 
 ![Docker AI Link Summarizer Demo](https://via.placeholder.com/800x400/667eea/ffffff?text=Docker+AI+Link+Summarizer+Demo)
 
