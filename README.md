@@ -11,7 +11,7 @@ A beautiful, AI-powered web application that instantly summarizes any webpage us
 - 🌙 **Dark Mode** - Toggle between light and dark themes
 - 📱 **Responsive Design** - Works perfectly on desktop and mobile
 - ⚡ **Real-time Processing** - Loading animations and error handling
-- 🐳 **Docker Ready** - Containerized for easy deployment
+- 🐳 **Docker Ready** - Containerized with production-ready Gunicorn server
 - 🛡️ **Robust Error Handling** - Graceful handling of invalid URLs and API errors
 
 ## 🚀 Quick Start
@@ -78,6 +78,7 @@ docker-ai-link-summarizer/
 ├── requirements.txt       # Python dependencies
 ├── Dockerfile            # Docker configuration
 ├── docker-compose.yml    # Docker Compose setup
+├── gunicorn.conf.py      # Gunicorn production server config
 ├── .env.example          # Environment variables template
 ├── .gitignore           # Git ignore rules
 ├── README.md            # Project documentation
@@ -166,11 +167,12 @@ docker-compose down
 
 ### Production Considerations
 
-- Use a production WSGI server (e.g., Gunicorn)
-- Set up reverse proxy (nginx)
+- ✅ Uses production-ready Gunicorn WSGI server
+- Set up reverse proxy (nginx) for additional performance
 - Configure proper environment variables
 - Monitor API usage and costs
 - Implement rate limiting
+- Scale workers based on traffic
 
 ## 🤝 Contributing
 
