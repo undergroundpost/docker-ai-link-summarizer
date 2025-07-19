@@ -2,6 +2,8 @@
 
 A fun, AI-powered web application that instantly summarizes any webpage using OpenAI's GPT-3.5. Built with Flask and Docker for easy deployment.
 
+![Preview](/images/action.png)
+
 ## ✨ Features
 
 - 🤖 **AI-Powered Summaries** - Uses OpenAI GPT-3.5 for intelligent content summarization
@@ -87,10 +89,10 @@ docker-ai-link-summarizer/
 ## 🎨 Screenshots
 
 ### Light Mode
-![Light Mode](https://via.placeholder.com/600x400/667eea/ffffff?text=Light+Mode)
+![Light Mode](/images/dark.png)
 
 ### Dark Mode
-![Dark Mode](https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Dark+Mode)
+![Dark Mode](/images/light.png)
 
 ## ⚙️ Configuration
 
