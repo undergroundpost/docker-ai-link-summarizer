@@ -40,6 +40,7 @@ Copy the following files from the artifacts into your project directory:
 - `requirements.txt` - Python dependencies  
 - `Dockerfile` - Docker configuration
 - `docker-compose.yml` - Docker Compose setup
+- `gunicorn.conf.py` - Production server configuration
 - `.env.example` - Environment template
 - `.gitignore` - Git ignore rules
 - `LICENSE` - MIT license
@@ -55,6 +56,7 @@ docker-ai-link-summarizer/
 ├── requirements.txt
 ├── Dockerfile
 ├── docker-compose.yml
+├── gunicorn.conf.py
 ├── .env.example
 ├── .gitignore
 ├── LICENSE
